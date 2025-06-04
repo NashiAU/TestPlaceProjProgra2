@@ -75,6 +75,18 @@
     <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
       <Filter>Source Files\Deducciones cpp</Filter>
     </ClCompile>
+    <ClCompile Include="DeduccionFija.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionPorcentual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionPorcentual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionFija.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IEnumerable.h">
@@ -142,6 +154,18 @@
     </ClInclude>
     <ClInclude Include="IDeducciones.h">
       <Filter>Header Files\Deducciones h</Filter>
+    </ClInclude>
+    <ClInclude Include="DeduccionFija.h">
+      <Filter>Header Files\Deducciones h</Filter>
+    </ClInclude>
+    <ClInclude Include="DeduccionPorcentual.h">
+      <Filter>Header Files\Deducciones h</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryDeduccionPorcentual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryDeduccionFija.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

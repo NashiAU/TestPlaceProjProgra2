@@ -4,6 +4,6 @@
 
 class FactoryDeducciones : public ObjectAdaptador{
 public:
-	virtual IDeducciones* crear(double) = 0;
+	virtual IDeducciones* crear(double, double) = 0;
 };
 
