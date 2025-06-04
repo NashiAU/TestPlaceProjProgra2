@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Ingresos cpp">
+      <UniqueIdentifier>{5bd76ee4-8797-4a74-b847-5545b62ba441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ingresos h">
+      <UniqueIdentifier>{f3373353-091d-403f-9dbb-e5ac5d646698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Deducciones cpp">
+      <UniqueIdentifier>{7dc60a10-2c6e-4f2f-8138-a8e5252d3a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deducciones h">
+      <UniqueIdentifier>{9b893eb7-25a3-4159-8eea-90997308fda8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ObjectAdaptador.cpp">
@@ -21,53 +33,50 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FactoryBonificacionesMontoFijo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BonificacionesMontoFijo.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
     <ClCompile Include="BonificacionesPorcentuales.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryBonificacionesMontoFijo.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
     <ClCompile Include="FactoryBonificacionesPorcentuales.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HorasOrdinariasDiurno.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasOrdinariasDiurno.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HorasOrdinariasNocturno.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasOrdinariasNocturno.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HorasOrdinariasMixta.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasOrdinariasMixta.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HorasFeriadoLaborado.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
     <ClCompile Include="FactoryHorasFeriadoTrabajado.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryHorasOrdinariasDiurno.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryHorasOrdinariasMixta.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryHorasOrdinariasNocturno.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HorasFeriadoLaborado.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HorasOrdinariasDiurno.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HorasOrdinariasMixta.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HorasOrdinariasNocturno.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
     <ClCompile Include="DeduccionesPermanentes.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Deducciones cpp</Filter>
     </ClCompile>
     <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Deducciones cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IIngresos.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="IEnumerable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -80,56 +89,59 @@
     <ClInclude Include="ObjectAdaptador.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FactoryIngresos.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryBonificacionesMontoFijo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="BonificacionesMontoFijo.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
     <ClInclude Include="BonificacionesPorcentuales.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryBonificacionesMontoFijo.h">
+      <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
     <ClInclude Include="FactoryBonificacionesPorcentuales.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HorasOrdinariasDiurno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasOrdinariasDiurno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HorasOrdinariasNocturno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasOrdinariasNocturno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HorasOrdinariasMixta.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasOrdinariasMixta.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HorasFeriadoLaborado.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
     <ClInclude Include="FactoryHorasFeriadoTrabajado.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
-    <ClInclude Include="IDeducciones.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="FactoryHorasOrdinariasDiurno.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryHorasOrdinariasMixta.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryHorasOrdinariasNocturno.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryIngresos.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="HorasFeriadoLaborado.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="HorasOrdinariasDiurno.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="HorasOrdinariasMixta.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="HorasOrdinariasNocturno.h">
+      <Filter>Header Files\Ingresos h</Filter>
+    </ClInclude>
+    <ClInclude Include="IIngresos.h">
+      <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
     <ClInclude Include="DeduccionesPermanentes.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Deducciones h</Filter>
     </ClInclude>
     <ClInclude Include="FactoryDeducciones.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Deducciones h</Filter>
     </ClInclude>
     <ClInclude Include="FactoryDeduccionesPermanentes.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Deducciones h</Filter>
+    </ClInclude>
+    <ClInclude Include="IDeducciones.h">
+      <Filter>Header Files\Deducciones h</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
