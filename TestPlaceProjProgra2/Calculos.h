@@ -3,13 +3,10 @@
 #include "IIngresos.h"
 class Calculos{
 private:
-	IDeducciones* deducciones;
-	IIngresos* ingresos;
+	double salarioBase;
+	double salarioNeto;
+	double salarioBruto;
 public:
-	Calculos(IDeducciones* _deducciones, IIngresos* _ingresos);
-	double calcularDeducciones() const;
-	double calcularIngresos() const;
-	double calcularTotal() const;
-	~Calculos();
+	Calculos(double, double, double); // Yo usaria este como el delegate, el builder ya hace los calculos de ingresos y deducciones sigma
 };
 

@@ -22,7 +22,7 @@
     <Filter Include="Header Files\Deducciones h">
       <UniqueIdentifier>{9b893eb7-25a3-4159-8eea-90997308fda8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Deducciones h\Deducciones cpp">
+    <Filter Include="Source Files\Deducciones cpp">
       <UniqueIdentifier>{7dc60a10-2c6e-4f2f-8138-a8e5252d3a7f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -69,28 +69,28 @@
     <ClCompile Include="HorasOrdinariasNocturno.cpp">
       <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
-    <ClCompile Include="DeduccionesPermanentes.cpp">
-      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
-      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="DeduccionPorcentual.cpp">
-      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="DeduccionFija.cpp">
-      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryDeduccionFija.cpp">
-      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryDeduccionPorcentual.cpp">
-      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
-    </ClCompile>
     <ClCompile Include="Calculos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BuilderCalculos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionPorcentual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionesPermanentes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionFija.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionPorcentual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionFija.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

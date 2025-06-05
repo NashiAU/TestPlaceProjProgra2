@@ -10,30 +10,28 @@
 #include "HorasOrdinariasNocturno.h"
 #include "HorasOrdinariasMixta.h"
 #include "FactoryDeduccionesPermanentes.h"
-#include "FactoryDeduccionesPorcentuales.h"
+#include "FactoryDeduccionPorcentual.h"
 #include "DeduccionFija.h"
 #include "IIngresos.h"
 #include "IDeducciones.h"
+#include "Calculos.h"
 
-class BuilderCalculos{
-	private:
+class BuilderCalculos {
+private:
 	IDeducciones* deducciones;
 	IIngresos* ingresos;
+	double salarioBase;
+	double salarioNeto;
+	double salarioBruto;
 public:
-	BuilderCalculos() : deducciones(nullptr), ingresos(nullptr) {}
-	BuilderCalculos& withDeducciones(IDeducciones* _deducciones) {
-		deducciones = _deducciones;
-		return *this;
-	}
-	BuilderCalculos& withIngresos(IIngresos* _ingresos) {
-		ingresos = _ingresos;
-		return *this;
-	}
-	Calculos build() const {
-		if (!deducciones || !ingresos) {
-			throw std::runtime_error("Deducciones and Ingresos must be set before building Calculos.");
-		}
-		return Calculos(deducciones, ingresos);
-	}
-};
+	BuilderCalculos(double = 0, double = 0, double = 399203.69);
+	BuilderCalculos* conHorasDiurno();
+	BuilderCalculos* conHorasNocturno();
+	BuilderCalculos* conHorasMixtas();
+	BuilderCalculos* conBonificacionFija(double montoFijo);
+	BuilderCalculos* conBonificacionPorcentual(double porcentaje);
+	BuilderCalculos* conDeduccionFija(double montoFijo);
+	BuilderCalculos* conDeduccionPorcentual(double porcentaje);
+	Calculos* construir() const;
 
+};
