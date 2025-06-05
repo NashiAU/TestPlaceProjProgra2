@@ -19,11 +19,11 @@
     <Filter Include="Header Files\Ingresos h">
       <UniqueIdentifier>{f3373353-091d-403f-9dbb-e5ac5d646698}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Deducciones cpp">
-      <UniqueIdentifier>{7dc60a10-2c6e-4f2f-8138-a8e5252d3a7f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Deducciones h">
       <UniqueIdentifier>{9b893eb7-25a3-4159-8eea-90997308fda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deducciones h\Deducciones cpp">
+      <UniqueIdentifier>{7dc60a10-2c6e-4f2f-8138-a8e5252d3a7f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -70,21 +70,27 @@
       <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
     <ClCompile Include="DeduccionesPermanentes.cpp">
-      <Filter>Source Files\Deducciones cpp</Filter>
+      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
     </ClCompile>
     <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
-      <Filter>Source Files\Deducciones cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="DeduccionFija.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
     </ClCompile>
     <ClCompile Include="DeduccionPorcentual.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
     </ClCompile>
-    <ClCompile Include="FactoryDeduccionPorcentual.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="DeduccionFija.cpp">
+      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
     </ClCompile>
     <ClCompile Include="FactoryDeduccionFija.cpp">
+      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionPorcentual.cpp">
+      <Filter>Header Files\Deducciones h\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderCalculos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -161,10 +167,16 @@
     <ClInclude Include="DeduccionPorcentual.h">
       <Filter>Header Files\Deducciones h</Filter>
     </ClInclude>
+    <ClInclude Include="FactoryDeduccionFija.h">
+      <Filter>Header Files\Deducciones h</Filter>
+    </ClInclude>
     <ClInclude Include="FactoryDeduccionPorcentual.h">
+      <Filter>Header Files\Deducciones h</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FactoryDeduccionFija.h">
+    <ClInclude Include="BuilderCalculos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

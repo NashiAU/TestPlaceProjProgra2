@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="BonificacionesMontoFijo.cpp" />
     <ClCompile Include="BonificacionesPorcentuales.cpp" />
+    <ClCompile Include="BuilderCalculos.cpp" />
+    <ClCompile Include="Calculos.cpp" />
     <ClCompile Include="DeduccionPorcentual.cpp" />
     <ClCompile Include="DeduccionesPermanentes.cpp" />
     <ClCompile Include="DeduccionFija.cpp" />
@@ -151,6 +153,8 @@
   <ItemGroup>
     <ClInclude Include="BonificacionesMontoFijo.h" />
     <ClInclude Include="BonificacionesPorcentuales.h" />
+    <ClInclude Include="BuilderCalculos.h" />
+    <ClInclude Include="Calculos.h" />
     <ClInclude Include="DeduccionPorcentual.h" />
     <ClInclude Include="DeduccionesPermanentes.h" />
     <ClInclude Include="DeduccionFija.h" />
