@@ -1,4 +1,11 @@
 #include "FactoryIngresos.h"
+#include "HorasOrdinariasDiurno.h"
+#include "HorasOrdinariasNocturno.h"
+#include "HorasOrdinariasMixta.h"
+#include "BonificacionesPorcentuales.h"
+#include "BonificacionesMontoFijo.h"
+#include "HorasFeriadoLaborado.h"
+
 
 
 FactoryIngresos::FactoryIngresos(double _salario)
@@ -6,29 +13,26 @@ FactoryIngresos::FactoryIngresos(double _salario)
 	salarioBase = _salario;
 }
 
-HorasOrdinariasDiurno* FactoryIngresos::crearIngresosHDiurno(){
+IIngresos* FactoryIngresos::crearIngresosHDiurno(){
 	return new HorasOrdinariasDiurno(salarioBase);
 }
-HorasOrdinariasNocturno* FactoryIngresos::crearIngresosHNocturno()
+IIngresos* FactoryIngresos::crearIngresosHNocturno()
 {
 	return new HorasOrdinariasNocturno(salarioBase);
 }
-HorasOrdinariasNocturno* FactoryIngresos::crearIngresosHMixto() {
-	return new HorasOrdinariasNocturno(salarioBase);
-}
-HorasOrdinariasMixta* FactoryIngresos::crearIngresosHMixta(double salarioBase)
+IIngresos* FactoryIngresos::crearIngresosHMixta()
 {
 	return new HorasOrdinariasMixta(salarioBase);
 }
-BonificacionesPorcentuales* FactoryIngresos::crearBonificacionesPorcentuales(double porcentaje)
+IIngresos* FactoryIngresos::crearBonificacionesPorcentuales(double porcentaje)
 {
 	return new BonificacionesPorcentuales(porcentaje, salarioBase);
 }
-BonificacionesMontoFijo* FactoryIngresos::crearBonificacionesMontoFijo(double cantidad)
+IIngresos* FactoryIngresos::crearBonificacionesMontoFijo(double cantidad)
 {
 	return new BonificacionesMontoFijo(cantidad, salarioBase);
 }
-HorasFeriadoLaborado* FactoryIngresos::crearIngresosFeriadoTrabajado(double horasTrabajadas)
+IIngresos* FactoryIngresos::crearIngresosFeriadoLaborado(double horasTrabajadas)
 {
 	return new HorasFeriadoLaborado(horasTrabajadas, salarioBase);
 }

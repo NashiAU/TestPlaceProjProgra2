@@ -13,7 +13,7 @@ int main(const int, char* []) {
 	try {
 		FactoryIngresos* factory = new FactoryIngresos();
 		IIngresos* salario3 = NULL;
-		salario3 = factory->crearIngresosHDiurno();
+		//salario3 = factory->crearIngresosHDiurno();
 		delete salario3;
 		/*cout << "Salario con bonificaciones de monto fijo: " << salario3->calcularSalario() << endl;
 		delete salario3;
@@ -29,7 +29,7 @@ int main(const int, char* []) {
 		salario3 = factory->crearIngresosHMixto();
 		cout << "Salario con horas ordinarias mixto: " << salario3->calcularSalario() << endl;
 		delete salario3;*/
-		delete factory;
+		//delete factory;
 		return 0;
 	}
 	catch (exception error)
