@@ -13,26 +13,26 @@ FactoryIngresos::FactoryIngresos(double _salario)
 	salarioBase = _salario;
 }
 
-IIngresos* FactoryIngresos::crearIngresosHDiurno(){
+HorasOrdinariasDiurno* FactoryIngresos::crearIngresosHDiurno(){
 	return new HorasOrdinariasDiurno(salarioBase);
 }
-IIngresos* FactoryIngresos::crearIngresosHNocturno()
+HorasOrdinariasNocturno* FactoryIngresos::crearIngresosHNocturno()
 {
 	return new HorasOrdinariasNocturno(salarioBase);
 }
-IIngresos* FactoryIngresos::crearIngresosHMixta()
+HorasOrdinariasMixta* FactoryIngresos::crearIngresosHMixta()
 {
 	return new HorasOrdinariasMixta(salarioBase);
 }
-IIngresos* FactoryIngresos::crearBonificacionesPorcentuales(double porcentaje)
+BonificacionesPorcentuales* FactoryIngresos::crearBonificacionesPorcentuales(double porcentaje)
 {
 	return new BonificacionesPorcentuales(porcentaje, salarioBase);
 }
-IIngresos* FactoryIngresos::crearBonificacionesMontoFijo(double cantidad)
+BonificacionesMontoFijo* FactoryIngresos::crearBonificacionesMontoFijo(double cantidad)
 {
 	return new BonificacionesMontoFijo(cantidad, salarioBase);
 }
-IIngresos* FactoryIngresos::crearIngresosFeriadoLaborado(double horasTrabajadas)
+HorasFeriadoLaborado* FactoryIngresos::crearIngresosFeriadoLaborado(double horasTrabajadas)
 {
 	return new HorasFeriadoLaborado(horasTrabajadas, salarioBase);
 }

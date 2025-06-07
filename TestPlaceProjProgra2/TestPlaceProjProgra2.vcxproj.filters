@@ -39,24 +39,6 @@
     <ClCompile Include="BonificacionesPorcentuales.cpp">
       <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
-    <ClCompile Include="FactoryBonificacionesMontoFijo.cpp">
-      <Filter>Source Files\Ingresos cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryBonificacionesPorcentuales.cpp">
-      <Filter>Source Files\Ingresos cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasFeriadoTrabajado.cpp">
-      <Filter>Source Files\Ingresos cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasOrdinariasDiurno.cpp">
-      <Filter>Source Files\Ingresos cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasOrdinariasMixta.cpp">
-      <Filter>Source Files\Ingresos cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryHorasOrdinariasNocturno.cpp">
-      <Filter>Source Files\Ingresos cpp</Filter>
-    </ClCompile>
     <ClCompile Include="HorasFeriadoLaborado.cpp">
       <Filter>Source Files\Ingresos cpp</Filter>
     </ClCompile>
@@ -117,24 +99,6 @@
       <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
     <ClInclude Include="BonificacionesPorcentuales.h">
-      <Filter>Header Files\Ingresos h</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryBonificacionesMontoFijo.h">
-      <Filter>Header Files\Ingresos h</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryBonificacionesPorcentuales.h">
-      <Filter>Header Files\Ingresos h</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasFeriadoTrabajado.h">
-      <Filter>Header Files\Ingresos h</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasOrdinariasDiurno.h">
-      <Filter>Header Files\Ingresos h</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasOrdinariasMixta.h">
-      <Filter>Header Files\Ingresos h</Filter>
-    </ClInclude>
-    <ClInclude Include="FactoryHorasOrdinariasNocturno.h">
       <Filter>Header Files\Ingresos h</Filter>
     </ClInclude>
     <ClInclude Include="FactoryIngresos.h">
