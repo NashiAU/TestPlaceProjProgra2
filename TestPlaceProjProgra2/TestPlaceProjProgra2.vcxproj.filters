@@ -96,6 +96,9 @@
     <ClCompile Include="FactoryDeducciones.cpp">
       <Filter>Source Files\Deducciones cpp</Filter>
     </ClCompile>
+    <ClCompile Include="FactoryIngresos.cpp">
+      <Filter>Source Files\Ingresos cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IEnumerable.h">

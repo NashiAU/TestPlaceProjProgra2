@@ -144,6 +144,7 @@
     <ClCompile Include="FactoryHorasOrdinariasDiurno.cpp" />
     <ClCompile Include="FactoryHorasOrdinariasMixta.cpp" />
     <ClCompile Include="FactoryHorasOrdinariasNocturno.cpp" />
+    <ClCompile Include="FactoryIngresos.cpp" />
     <ClCompile Include="HorasFeriadoLaborado.cpp" />
     <ClCompile Include="HorasOrdinariasDiurno.cpp" />
     <ClCompile Include="HorasOrdinariasMixta.cpp" />

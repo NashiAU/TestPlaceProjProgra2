@@ -11,7 +11,7 @@ public:
 	HorasOrdinariasDiurno(double = 240, double = 399203.69);
 	double calcularSalarioPorHora() const;
 	double calcularHorasExtras() const;
-	double calcularSalario() const override;
+	virtual double calcularSalario() const override;
 	
 };
 
