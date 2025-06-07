@@ -76,22 +76,25 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FactoryDeduccionPorcentual.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DeduccionesPermanentes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DeduccionFija.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DeduccionPorcentual.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Deducciones cpp</Filter>
     </ClCompile>
     <ClCompile Include="FactoryDeduccionFija.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeduccionesPermanentes.cpp">
+      <Filter>Source Files\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionPorcentual.cpp">
+      <Filter>Source Files\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionFija.cpp">
+      <Filter>Source Files\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduccionesPermanentes.cpp">
+      <Filter>Source Files\Deducciones cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryDeducciones.cpp">
+      <Filter>Source Files\Deducciones cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

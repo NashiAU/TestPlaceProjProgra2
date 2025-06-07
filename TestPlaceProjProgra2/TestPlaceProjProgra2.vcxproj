@@ -136,6 +136,7 @@
     <ClCompile Include="DeduccionFija.cpp" />
     <ClCompile Include="FactoryBonificacionesMontoFijo.cpp" />
     <ClCompile Include="FactoryBonificacionesPorcentuales.cpp" />
+    <ClCompile Include="FactoryDeducciones.cpp" />
     <ClCompile Include="FactoryDeduccionesPermanentes.cpp" />
     <ClCompile Include="FactoryDeduccionFija.cpp" />
     <ClCompile Include="FactoryDeduccionPorcentual.cpp" />

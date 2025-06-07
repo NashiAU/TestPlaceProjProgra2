@@ -1,4 +1,6 @@
 #pragma once
+#include "FactoryDeducciones.h"
+#include "FactoryIngresos.h"
 #include "IDeducciones.h"
 #include "IIngresos.h"
 class Calculos{

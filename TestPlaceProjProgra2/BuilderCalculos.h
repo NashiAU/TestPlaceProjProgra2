@@ -4,7 +4,7 @@
 #include "FactoryHorasOrdinariasDiurno.h"
 #include "FactoryHorasOrdinariasNocturno.h"
 #include "FactoryHorasOrdinariasMixta.h"
-#include "BonificacionesMontoFijo.h"
+/*#include "BonificacionesMontoFijo.h"
 #include "BonificacionesPorcentuales.h"
 #include "HorasOrdinariasDiurno.h"
 #include "HorasOrdinariasNocturno.h"

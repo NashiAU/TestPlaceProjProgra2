@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #include "DeduccionPorcentual.h"
 #include "FactoryDeducciones.h"
 class FactoryDeduccionPorcentual : public FactoryDeducciones {
