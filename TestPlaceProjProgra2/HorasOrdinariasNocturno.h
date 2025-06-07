@@ -3,6 +3,7 @@
 
 class HorasOrdinariasNocturno : public IIngresos{
 private:
+	double salarioBase;
 	double horasTrabajadas;
 	bool horasExtras;
 	double horasExtrasTrabajadas;

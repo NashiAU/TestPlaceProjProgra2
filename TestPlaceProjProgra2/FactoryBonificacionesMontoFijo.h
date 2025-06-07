@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "FactoryIngresos.h"
 #include "BonificacionesMontoFijo.h"
@@ -6,3 +7,4 @@ public:
 	BonificacionesMontoFijo* crear(double, double = 399203.69) override;
 };
 
+*/

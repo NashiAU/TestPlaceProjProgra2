@@ -1,6 +1,6 @@
 #include "HorasFeriadoLaborado.h"
 
-HorasFeriadoLaborado::HorasFeriadoLaborado(double _horasTrabajadas, double _salario)
+HorasFeriadoLaborado::HorasFeriadoLaborado(double _horasTrabajadas, double _salario)	
 {
 	if (_horasTrabajadas > 8) {
 		horasExtras = true;
@@ -10,12 +10,12 @@ HorasFeriadoLaborado::HorasFeriadoLaborado(double _horasTrabajadas, double _sala
 		horasExtras = false;
 		horasExtrasTrabajadas = 0;
 	}
-	salario = _salario;
+	salarioBase = _salario;
 	horasTrabajadas = _horasTrabajadas;
 }
 double HorasFeriadoLaborado::calcularSalarioPorHora() const
 {
-	return salario / 240;
+	return salarioBase / 240;
 }
 double HorasFeriadoLaborado::calcularHorasExtras() const
 {

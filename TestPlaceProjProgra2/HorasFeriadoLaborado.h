@@ -2,6 +2,7 @@
 #include "IIngresos.h"
 class HorasFeriadoLaborado : public IIngresos {
 private:
+	double salarioBase;
 	double horasTrabajadas;
 	bool horasExtras;
 	double horasExtrasTrabajadas;

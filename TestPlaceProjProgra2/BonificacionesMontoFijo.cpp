@@ -2,11 +2,11 @@
 
 BonificacionesMontoFijo::BonificacionesMontoFijo(double _bonificacion, double _salario)
 {
-    salario = _salario;
+    salarioBase = _salario;
     bonificacion = _bonificacion;
 }
 
 double BonificacionesMontoFijo::calcularSalario() const
 {
-    return salario + bonificacion;
+    return salarioBase + bonificacion;
 }

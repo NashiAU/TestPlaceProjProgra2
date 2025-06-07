@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="IIterador" Collapsed="true">
-    <Position X="31.5" Y="5" Width="1.5" />
+    <Position X="28.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>IIterador.h</FileName>
@@ -29,101 +29,101 @@
     </TypeIdentifier>
   </Class>
   <Class Name="IEnumerable" Collapsed="true">
-    <Position X="31.5" Y="5.75" Width="1.5" />
+    <Position X="28.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>IEnumerable.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FactoryIngresos" Collapsed="true">
-    <Position X="18.25" Y="1.5" Width="1.5" />
+    <Position X="17" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAQAAABAABACACAIAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>FactoryIngresos.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FactoryBonificacionesPorcentuales" Collapsed="true">
-    <Position X="15" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FactoryBonificacionesPorcentuales.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FactoryBonificacionesMontoFijo" Collapsed="true">
-    <Position X="18.5" Y="5.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FactoryBonificacionesMontoFijo.h</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="BonificacionesPorcentuales" Collapsed="true">
-    <Position X="11.75" Y="8" Width="1.5" />
+    <Position X="10.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAACABAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>BonificacionesPorcentuales.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BonificacionesMontoFijo" Collapsed="true">
-    <Position X="14.25" Y="8" Width="1.5" />
+    <Position X="12" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>BonificacionesMontoFijo.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="HorasOrdinariasNocturno" Collapsed="true">
-    <Position X="16.25" Y="7.75" Width="1.5" />
+    <Position X="13.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAADAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAgAAAAAAAQACDAAAAAAAEAAAAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>HorasOrdinariasNocturno.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="HorasOrdinariasMixta" Collapsed="true">
-    <Position X="19.25" Y="7.5" Width="1.5" />
+    <Position X="15.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAQACDAAAAAAAEAAAAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>HorasOrdinariasMixta.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="HorasOrdinariasDiurno" Collapsed="true">
-    <Position X="21.5" Y="7" Width="1.5" />
+    <Position X="17.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAQACDAAAAAAAEAAAAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>HorasOrdinariasDiurno.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FactoryHorasOrdinariasNocturno" Collapsed="true">
-    <Position X="25.5" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FactoryHorasOrdinariasNocturno.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FactoryHorasOrdinariasMixta" Collapsed="true">
-    <Position X="20.75" Y="5.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FactoryHorasOrdinariasMixta.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FactoryHorasOrdinariasDiurno" Collapsed="true">
-    <Position X="21.75" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FactoryHorasOrdinariasDiurno.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FactoryHorasFeriadoTrabajado" Collapsed="true">
-    <Position X="16.75" Y="5.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FactoryHorasFeriadoTrabajado.h</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="HorasFeriadoLaborado" Collapsed="true">
-    <Position X="10.75" Y="4.5" Width="1.5" />
+    <Position X="8.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAQACDAAAAAAAEAAAAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>HorasFeriadoLaborado.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculos" Collapsed="true">
+    <Position X="28.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAABAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculos.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDeducciones" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDeducciones.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryDeducciones" Collapsed="true">
+    <Position X="25.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAhAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryDeducciones.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeduccionPorcentual" Collapsed="true">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeduccionPorcentual.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeduccionFija" Collapsed="true">
+    <Position X="23" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeduccionFija.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeduccionesPermanentes" Collapsed="true">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>DeduccionesPermanentes.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

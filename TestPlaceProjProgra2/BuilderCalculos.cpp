@@ -69,3 +69,4 @@ BuilderCalculos* BuilderCalculos::conDeduccionPorcentual(double porcentaje)
 	salarioNeto -= deducciones->calcularDeducciones();
 	return new BuilderCalculos(salarioNeto, salarioBruto, salarioBase);
 }
+*/

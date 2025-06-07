@@ -1,22 +1,22 @@
 #pragma once
-#include "IIngresos.h"
+#include "ObjectAdaptador.h"
 #include "HorasOrdinariasDiurno.h"
 #include "HorasOrdinariasNocturno.h"
 #include "HorasOrdinariasMixta.h"
 #include "BonificacionesPorcentuales.h"
 #include "BonificacionesMontoFijo.h"
 #include "HorasFeriadoLaborado.h"
-
-class FactoryIngresos {
+class IIngresos;
+class FactoryIngresos: public ObjectAdaptador {
 private:
 	double salarioBase;
 public:
-	FactoryIngresos(double);
-	IIngresos* crearIngresosHDiurno();
-	IIngresos* crearIngresosHNocturno();
-	IIngresos* crearIngresosHMixto();
-	IIngresos* crearBonificacionesPorcentuales(double);
-	IIngresos* crearBonificacionesMontoFijo(double);
-	IIngresos* crearIngresosFeriadoTrabajado(double);
+	FactoryIngresos(double = 399203.69);
+	HorasOrdinariasDiurno* crearIngresosHDiurno();
+	HorasOrdinariasMixta* crearIngresosHMixto();
+	HorasOrdinariasNocturno* crearIngresosHNocturno();
+	BonificacionesPorcentuales* crearBonificacionesPorcentuales(double);
+	BonificacionesMontoFijo* crearBonificacionesMontoFijo(double);
+	HorasFeriadoLaborado* crearIngresosFeriadoTrabajado(double);
 };
 

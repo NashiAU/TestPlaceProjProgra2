@@ -10,13 +10,13 @@ HorasOrdinariasDiurno::HorasOrdinariasDiurno(double _horasTrabajadas, double _sa
 		horasExtras = false;
 		horasExtrasTrabajadas = 0;
 	}
-	salario = _salario;
+	salarioBase = _salario;
 	horasTrabajadas = _horasTrabajadas;
 }
 
 double HorasOrdinariasDiurno::calcularSalarioPorHora() const
 {
-	return salario / 240;
+	return salarioBase / 240;
 }
 
 double HorasOrdinariasDiurno::calcularHorasExtras() const
